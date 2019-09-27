@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.container.none {
+    display: none;
+}
+
+.score__container {
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.score {
+    /* background-color: aliceblue; */
+    /* width: 40%; */
+    /* background-color: ; */
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    color: aliceblue;
+}
+
+.form-main__wrapper {
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 200px 0 0 0;
+}
+
+.form-main__wrapper.none {
+    display: none;
+}
+
+.form-main {
+
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 50px;
+}
+
+canvas#game {
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
